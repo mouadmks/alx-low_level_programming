@@ -6,20 +6,11 @@
  */
 int main(void)
 {
-int nums;
-int nums1;
+char abc;
 
-for (nums = '0'; nums <= '9'; nums++)
+for (abc = 'a'; abc <= 'z'; abc++)
 {
-for (nums1 = '0'; nums1 <= '9'; nums1++)
-{
-putchar(nums);
-putchar(nums1);
-if (nums == '9' && nums1 == '9')
-continue;
-putchar(',');
-putchar(' ');
-}
+putchar(abc);
 }
 putchar('\n');
 return (0);
