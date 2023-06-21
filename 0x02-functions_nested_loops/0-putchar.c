@@ -1,8 +1,10 @@
 include "main.h"
+
 /**
  * main - print _putchar
  * Return: 0 if succesful
  */
+int _putchar(char c)
 int main(void)
 {
 	_putchar('_');
